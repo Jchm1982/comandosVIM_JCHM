@@ -1,0 +1,5 @@
+Para poder utilizar VIM primero se tiene que instalar.
+
+vim --version -> Para validar que tenemos vim
+Se mostrara un listado de información.
+Hay que revisar que la version instalada contenga el archivo +clipboard
