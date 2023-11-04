@@ -38,3 +38,24 @@ ESC, ESC -> Para salir del modo visual
 ===================================     ARCHIVO .vimrc     ===================================
 desde el home del usuario
 ~/.vimrc ⏎ - y entrar con al modo de insert
+
+
+===================================     NAVEGACION     ===================================
+Comandos Basicos
+h-> Izquierda
+j-> Abajo
+k-> Arriba
+l-> Derecha
+      
+      ##########     DESPLAZAMIENTO HACIA ADELANTE     ##########
+e -> Nos envia al final de la siguiente palabra
+w -> Nos envia al inicio de la siguiente palabra, letra por letra al inicio de grupo de palabras
+E -> 
+W -> Al inicio del siguiente grupo de palabras
+
+      ##########     DESPLAZAMIENTO HACIA ATRAS     ##########
+b -> word en minuscula
+B -> Word en mayuscula
+
+      ##########     DESPLAZAMIENTO LATERALES ESPECIFICOS     ##########
+Movernos al inicio y al final de una linea y movernos a un carater partucularmente
