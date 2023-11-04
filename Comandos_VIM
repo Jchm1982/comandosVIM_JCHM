@@ -7,5 +7,34 @@ Hay que revisar que la version instalada contenga el archivo +clipboard
 ===================================     PARA INICIAR VIM     ===================================
 vim ⏎ -> Se iniciara una nueva sesion
 
-:q -> Salir del editor
+:q ⏎ -> Salir del editor
 
+vim 'nombre de archivo que se quiere editar' ⏎ -> Para abrir un nombre de archivo en especifico
+vim 'nombre de archivo que se quiere editar' ⏎ -> En caso que no exista el archivo, creara un buffer de edición con el nombre que hayamos indicado, esto no
+                                                  creara el archivo fisicamente,solo prepara el espacio de trabajo para que se edite, y cuando se guarde
+                                                  tenga un nombre definido
+:q! ⏎ -> Para forzar la salida del archivo, nos sacara del editor sin guardar los cambios.
+
+
+
+===================================     MODO DE OPERACIÓN     ===================================
+
+MODO DE COMANDO:
+Es el modo más comun del editor
+
+MODO DE INSERCION:
+Se utiliza para agregar o modificar codigo existente
+i ⏎ -> Para entrar a este modo
+ESC -> Para salir del modo insercion
+
+MODO VISUAL:
+Permite Marcar bloques de texto y poder manipularlos.Como si marcaras el texto con el mouse
+v ⏎ -> Para entrar a este modo. Permiter marcar caracter x carater
+ESC, ESC -> Para salir del modo visual
+
+===================================     SISTEMA DE AYUDA     ===================================
+:help 'accion que se quiere conocer(quit)' ⏎ -> Nos llevara a la documentacion
+
+===================================     ARCHIVO .vimrc     ===================================
+desde el home del usuario
+~/.vimrc ⏎ - y entrar con al modo de insert
