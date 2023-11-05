@@ -58,4 +58,28 @@ b -> word en minuscula
 B -> Word en mayuscula
 
       ##########     DESPLAZAMIENTO LATERALES ESPECIFICOS     ##########
-Movernos al inicio y al final de una linea y movernos a un carater partucularmente
+Movernos al inicio y al final de una linea y movernos a un carater particularmente
+$ -> Para moverse al final de una linea.
+Si se presion 0(cero) -> Se regresa al inicio de la linea en donde se esta la linea
+f seguido del caracter al cual se quiere saltar ->Para moverse a un caracter en particular hacia el frente
+F seguido del caracter al cual se quiere saltar ->Para moverse a un caracter en particular hacia Atras
+      
+      
+      ##########     DESPLAZAMIENTO LATERALES ESPECIFICOS     ##########
+G ->Para moverse al final del archivo
+g,g ->Para regresar al inicio del archivo
+CTRL+d (sin soltar ctrl)->Para moverse hacia abajo de 1/2 Pagina en 1/2 pagina
+CTRL+u (sin soltar ctrl)->Para regresar de 1/2 Pagina en 1/2 pagina
+
+      ##########     SALTAR A UNA LINEA EN ESPECIFICO DEL ARCHIVO     ##########
+No. de linea al cual se quiere saltar + SHIFT g -> Para saltar a una linea en especifico
+: 'Linea al a cual se quiere saltar' ⏎ -> Para saltar a una linea en especifico
+
+===      :set numbre -> Para activar el numero de lineas en el documento    ===
+
+
+    ##########     DESPLAZAR PARA MÁS RÁPIDO CON LA FUNCIÓN DE VIM (COUNT)     ##########
+Si se quiere avanzar una cantidad especific de caracteres:
+3 + l -> Para avanzar caracteres
+3 + w -> Para avanzar palabras, te llevara al final de la palabra
+3 + d -> Para regresar 3 palabras
