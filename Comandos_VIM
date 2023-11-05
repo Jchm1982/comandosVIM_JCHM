@@ -83,3 +83,20 @@ Si se quiere avanzar una cantidad especific de caracteres:
 3 + l -> Para avanzar caracteres
 3 + w -> Para avanzar palabras, te llevara al final de la palabra
 3 + d -> Para regresar 3 palabras
+
+
+===================================     EDICION Y BORRADO     ===================================
+
+i -> Para entrar al modo insercion en donde se encuentra el cursor
+a -> Para entrar al modo insercion 1 caracter adelante de donde esta posicionado el cursor
+I -> Colocara el modo de insercion al inicio de la linea el cual esta posicionado
+A -> Colocara el modo de insercion al final de la linea el cual esta posicionado
+o -> Para entrar al modo insercion en la linea abajo
+O (mayuscula) -> Para entrar al modo insercion en la linea abajo
+
+    ##########     BORRADO EN MODO DE COMANDO     ##########
+x -> Borrar caracteres que se encuentran despues del cursor
+'No. de Caracteres' + x -> Varios caracteres a la vez 
+X -> Borrar caracteres que se encuentran detras del cursor
+'No. de Caracteres' + X -> Varios caracteres a la vez detras del curso
+dw -> 
