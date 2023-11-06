@@ -128,3 +128,14 @@ Se puede juntar el numero de veces que se desea que pase una operación:
 ~/.vimrc ⏎ -> Entramos a nuestro archivo y colocamos las siguientes lineas:
 syntax on
 Guardamos y cerramos archivo
+
+
+===================================     COPIAR, CORTAR y PEGAR TEXTO     ===================================
+yank (copiar)
+paste (pegar)
+y + w -> Se copiara la palabra completa
+p -> Se pegara la palabra antes copiada y lo hara delante del cursor
+y + $ -> Se copiara todo lo que se tenga despues del cursor
+d d -> Se borra todo una linea
+y y -> Se copia la linea completa
+P -> Se pega lo copiado detras del cursor
