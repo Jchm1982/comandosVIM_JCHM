@@ -173,3 +173,26 @@ se guarda el archivo
 
 ===================================     BUSQUEDA Y SUTITUCION DE TEXTO EN VIM     ===================================
 
+BUSCAR TEXTO:
+Buscar de arriba hacia abajo en el documento:
+/ + 'texto a buscar' + ⏎ -> El cursor se movera automaticamente a la primera coincidencia
+
+Buscar de abajo hacia arriba en el documento:
+? + 'texto a buscar' + ⏎
+si se presiona la n -> Continuara con las coincidencias
+
+    ##########     MEJORANDO PRESENTACION DE LAS BUSQUEDAS     ##########
+Se tiene que actualizra nuestro archivo ~/.vimrc.
+Se tiene que entrar al archivo y dentro de este, se tiene que agregar los siguiente:
+  set hlsearch
+  set insearch
+  set shortmess-=S
+    
+    ##########     BUSCANDO LA PALABRA SOBRE EL EDITOR     ##########
+SHIFT + 8 ->Ilumina las coincidencias
+
+
+    ##########     BUSCAR Y REMPLAZAR     ##########
+DEBEMOS ESTAR EN MODO DE COMANDO
+colocr los siguiente:
+:%s/'patron a remplazar'/'patron al que queremos remplazar'/g -> Se remplazara todas las coinciencias que se encuentren
