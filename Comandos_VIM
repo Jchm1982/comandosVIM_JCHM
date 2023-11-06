@@ -139,3 +139,37 @@ y + $ -> Se copiara todo lo que se tenga despues del cursor
 d d -> Se borra todo una linea
 y y -> Se copia la linea completa
 P -> Se pega lo copiado detras del cursor
+
+===================================     UTILIZAR LOS REGISTROS DE VIM     ===================================
+Registros: Son los espacios en la memoria de nuestra computadora, que VIM utiliza para almacenar texto con la finalidad de
+          acceder de forma posterio a ellos.
+Para poder listar el contenido de nuestros registros:
+
+:registers ó :reg ⏎
+
+Si se quiere guardar en alguna posicion de forma especifica en alguno de los lugares, se tiene que hacer lo siguiente:
+
+Si se quiere guardar en un registro en particular:
+" + 'posicion que se quiere guardar en numero' + y + w
+
+Para utilizar los registros:
+" + 'posicion que se quiere utilizar en numero' + p
+
+===================================     ALTERNATIVAS PARA COMPARTIR TEXTO EN VIM     ===================================
+
+" + * ->Inetercambiar texto con la interfaz grafica del sistema
+" + + ->
+
+se puede hacer una configuración con la siguiente linea de comando:
+vim --version | grep 'clipboard'
+
+y se tiene que hacer un cambio en 
+~/.vimrc
+
+Se tiene que agregar:
+set clipboard^=unnamed,unnamedplus
+se guarda el archivo
+
+
+===================================     BUSQUEDA Y SUTITUCION DE TEXTO EN VIM     ===================================
+
