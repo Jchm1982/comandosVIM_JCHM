@@ -37,7 +37,7 @@ ESC, ESC -> Para salir del modo visual
 
 ===================================     ARCHIVO .vimrc     ===================================
 desde el home del usuario
-~/.vimrc ⏎ - y entrar con al modo de insert
+~/.vimrc ⏎ -> y entrar con al modo de insert
 
 
 ===================================     NAVEGACION     ===================================
@@ -101,3 +101,30 @@ X -> Borrar caracteres que se encuentran detras del cursor
 'No. de Caracteres' + X -> Varios caracteres a la vez detras del curso
 dw -> Eliminara toda la palabra hacia el frente
 db -> Eliminara toda la palabra hacia atras del cursor
+dd -> Eliminara la linea completa (modo de comando)
+
+    ##########     REMPLAZO DE TEXTO     ##########
+r + 'letra q se quiere remplazar' -> Remplazar un solo caracter
+c + 'tecla de movimiento' -> Cambiar palabra o un renglon completo
+c + w ->Elimina la palabra hacia delante del curso y entra al modo de insercion
+c + b ->Elimina la palabra hacia atras del curso y entra al modo de insercion
+
+===================================     AJUSTAR LA INDENTACION DEL DOCUMENTO     ===================================
+
+~/.vimrc ⏎ -> Entramos a nuestro archivo y colocamos las siguientes lineas:
+*ver el video Modulo 4 clase 4 CF*
+
+
+===================================     DESHACER Y REHACER CAMBIOS     ===================================
+Un cambio implica todo lo que se haya agregado y removido en una accion unica
+u (undo) -> Deshacer
+CTRL + r (redo) -> Re-hacer
+Se puede juntar el numero de veces que se desea que pase una operación:
+
+'numero (2)' + u -> Deshacer los ultimos 2 cambios
+'numero (2)' + CTRL  r -> Re-hacer los ultimos 2 cambios
+
+===================================     APLICANDO COLORES DE MANERA NATIVA     ===================================
+~/.vimrc ⏎ -> Entramos a nuestro archivo y colocamos las siguientes lineas:
+syntax on
+Guardamos y cerramos archivo
