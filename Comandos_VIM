@@ -196,3 +196,6 @@ SHIFT + 8 ->Ilumina las coincidencias
 DEBEMOS ESTAR EN MODO DE COMANDO
 colocr los siguiente:
 :%s/'patron a remplazar'/'patron al que queremos remplazar'/g -> Se remplazara todas las coinciencias que se encuentren
+La g es para que el cambio lo haga de forma global, si no se agrega esta letra solo se hara en la primera coicidencia
+
+:help substitute -> Nos llevara a la documentación que se tiene.
