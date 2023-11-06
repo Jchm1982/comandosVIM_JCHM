@@ -99,4 +99,5 @@ x -> Borrar caracteres que se encuentran despues del cursor
 'No. de Caracteres' + x -> Varios caracteres a la vez 
 X -> Borrar caracteres que se encuentran detras del cursor
 'No. de Caracteres' + X -> Varios caracteres a la vez detras del curso
-dw -> 
+dw -> Eliminara toda la palabra hacia el frente
+db -> Eliminara toda la palabra hacia atras del cursor
